@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topSection">
+        <div class="websiteHeader">adrianphuong.com</div>
+        <nav>
+            <div class="menu">
+                <ul class = "buttons">
+                    <li><a href = "#home">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#projects">Projects</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div> 
+    <div class = "frontpage animation" id = "home">
+        <div class="leftPart">
+            <h1>Hi my name's 👋🏻<br>
+                <p>Adrian Phuong</p></h1>
+            <h2>I'm a student at University of California - Santa Cruz<br> 
+                studying <b>Computer Science: Game Design.</b></h2>
+                <a href="https://www.linkedin.com/in/adrian-phuong-14390b242/" target="_blank" class="LinkedInButton">
+                    <i class="fa fa-linkedin-square" style="font-size:36px" href = "https://www.linkedin.com/in/adrian-phuong-14390b242/"></i>
+                </a>
+                <a href="https://github.com/adrianphuong" target="_blank" class="GitHubButton">
+                    <i class="fa fa-github-square" style="font-size:36px" href = "https://www.linkedin.com/in/adrian-phuong-14390b242/"></i>
+                </a>
+        </div>
+        <div class="rightPart">
+            <img class = "profile" src = "assets/ProfilePic.png">
+        </div>
+    </div>
+    <!--About Me-->
+    <div class="about animation" id = "about">
+        <img class = "aboutPic" src = "assets/AboutPicture.jpg">
+        <div class="titles">
+            <h1 class = "aboutTitle">ABOUT ME</h1>
+            <h1 class = "altTitle">A passionate Full-Stack Developer<br>based in San Jose, California 📍</h1>
+            <h2 class = "aboutDesc">I'm an enthusiastic full-stack developer driven by a mission to bring ideas to life through code. My journey in technology started with a keen curiosity and a goal to understand both front-end and back-end intricacies in web development. I've built a strong foundation in languages like HTML, CSS, and JavaScript for creating user-friendly interfaces. Additionally, I'm well-versed in server-side technologies like Node.js and Python to develop seamless and dynamic web experiences.</h2>
+        </div>
+    </div>
+    <!--Portfolio-->
+    <div class="projects animation" id = "projects">
+        <h1 class = "projectTitle">PORTFOLIO</h1>
+        <h1 class = "altTitle">Some of my creations 💻</h1>
+        <div class="projectList">
+            <div class="projectItem">
+                <img src = "assets/Project1.png">
+                <div class="ProjectContainer">
+                    <div class="projectName">FISHING LEGENDS 🎣</div>
+                    <div class="stackList">Lua, Hyra API</div>
+                    <div class="projectDesc">A game development project on ROBLOX. Players can fish in a simulated environment, earn coins, traverse new islands, and data is stored after leaving the game.</div>
+                    <a href = "https://www.roblox.com/games/9067269073/NEW-Fishing-Legends" class = "robloxLink" target=”_blank” >🎮 Game Link</a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div class="ProjectContainer">
+                    <div class="projectName">DayLog 📝</div>
+                    <div class="stackList">React.js, Express, Node.js, HTML,<br> Tailwind CSS, MySQL</div>
+                    <div class="projectDesc">A diary logging web application that can be used to write and store notes. Uses MySQL to save entries and reopen them.</div>
+                    <div class="projectButtons">
+                        <a href = "https://github.com/adrianphuong/DayLog" class = "githubLink" target=”_blank” >Code 🖥️</a>
+                    </div>
+                </div>
+                <img src = "assets/Project2.png">
+            </div>
+            <div class="projectItem">
+                <img src = "assets/Project3.png">
+                <div class="ProjectContainer">
+                    <div class="projectName">PlatePal 🍽️</div>
+                    <div class="stackList">Python, Flask, HTML, CSS, Javascript,<br> Spoonacular API</div>
+                    <div class="projectDesc">A recipe web application that allows users to search up recipes to make and store favorites through local storage.</div>
+                    <div class="projectButtons">
+                        <a href = "https://github.com/adrianphuong/PlatePal" class = "githubLink" target=”_blank” >Code 🖥️</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div class="ProjectContainer">
+                    <div class="projectName">My To Do App 📆</div>
+                    <div class="stackList">MongoDB, Express, React.js, Node.js, HTML, CSS</div>
+                    <div class="projectDesc">A time managing web application that allows users to write, save, edit, and delete tasks. Uses MongoDB to effectively save data and restore it on refresh.</div>
+                    <div class="projectButtons">
+                        <a href = "https://github.com/adrianphuong/DayLog" class = "githubLink" target=”_blank” >Code 🖥️</a>
+                        <a href = "https://main--resplendent-crostata-cac73f.netlify.app/" class = "liveDemoLink" target=”_blank” >Live Demo ↗</a>
+                    </div>
+                </div>
+                <img src = "assets/Project4.png">
+            </div>
+        </div>
+    </div>
+    <!--Contact-->
+    <div class="contact" id = "contact">
+        <h1 class = "contactTitle">CONTACT</h1>
+        <h1 class = "contactSubtitle">Thank you for reading my portfolio</h1>
+        <h2 class = "contactDesc">I'm always looking for new opportunities to learn and grow as a developer. Whether it be frontend, backend, or both, the challenges that come along with it excite me. I'm open to meeting like-minded individuals; feel free to connect with me!</h2>
+        <div class="contactContainer">
+            <a class = "contactButton" href = "mailto:adrianphuong1@gmail.com">Email 📩</a>
+            <a class = "contactButton" href = "https://www.linkedin.com/in/adrian-phuong-14390b242/" target=”_blank” >LinkedIn </a>
+        </div>
+    </div>
+
+    <script src = 'main.js'></script>
+</body>
+</html>
