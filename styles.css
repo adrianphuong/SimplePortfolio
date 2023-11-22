@@ -91,6 +91,34 @@ nav ul li a:hover::after {
     width:300px;
 }
 
+i {
+    margin-right: 10px;
+}
+
+.fa-js{
+    scale:200%;
+    padding-bottom:15px;
+    padding-left:5px;
+}
+
+.fa-python {
+    scale:200%;
+    padding-bottom:15px;
+    padding-left:12px;
+}
+
+.fa-java {
+    scale:200%;
+    padding-bottom:15px;
+    padding-left:12px;
+}
+
+.fa-c {
+    scale:140%;
+    padding-bottom:25px;
+    padding-left:12px;
+}
+
 h1 {
     margin: 0 auto;
     font-weight: 500;
@@ -109,6 +137,24 @@ h2 {
     font-size:18px;
     font-weight:100;
     color: grey;
+}
+
+h3 {
+    color:black;
+    font-weight:900;
+    letter-spacing:3px;
+    font-size:16px;
+    margin-bottom:0px;
+}
+
+.stackIcons {
+    margin-top: 20px;
+}
+
+.underline {
+    width:80%;
+    height:.08%;
+    background-color: grey;
 }
 
 a {
@@ -441,5 +487,9 @@ img {
 
     h1 {
         font-size: 36px;
+    }
+
+    .underline {
+        margin: 0 auto;
     }
 }
